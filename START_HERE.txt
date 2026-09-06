@@ -1,0 +1,14 @@
+PHARMAPLUS V5 - START HERE
+
+1. Open config.js in Notepad.
+2. Replace PASTE_YOUR_SUPABASE_PROJECT_URL_HERE with your Supabase Project URL.
+3. Replace PASTE_YOUR_SUPABASE_PUBLISHABLE_KEY_HERE with your Publishable key.
+4. Save config.js.
+5. In Supabase SQL Editor, run supabase_schema.sql.
+6. Upload ALL files, including config.js, to your hosting/GitHub Pages.
+
+Example:
+window.PHARMAPLUS_SUPABASE_URL = "https://abcdefghijklmnop.supabase.co";
+window.PHARMAPLUS_SUPABASE_KEY = "sb_publishable_xxxxxxxxx";
+
+Do not use a service_role/secret key.
