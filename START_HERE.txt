@@ -1,0 +1,9 @@
+PHARMAPLUS MANAGEMENT — FINAL BUILD
+
+1. Upload the files in this folder to the Management System hosting/GitHub folder.
+2. Keep your existing config.js values if you already configured Supabase.
+3. In Supabase SQL Editor, run PHARMAPLUS_MASTER_UPDATE.sql ONCE. It upgrades the shared database for both Management and Customer Portal.
+4. Do NOT run the same master update repeatedly unless Supabase reports a specific error.
+5. Hard refresh the Management page once after uploading (Ctrl+Shift+R).
+
+Major changes: online order lifecycle, customer names, delivery location + QR receipt, delivery fee per KM, mobile money settings, pending sales workflow, item type-ahead suggestions, item counts, online customer reports, notifications, standard Uganda time, and pharmaceutical UI improvements.
